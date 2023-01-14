@@ -4,7 +4,7 @@
     <title>Meshiterro</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
 
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -15,7 +15,8 @@
       <nav class = "navbar navbar-expand-lg navbar-light">
         <div class = "container">
           <a class = "navbar-brand p-3" href = "/"><%= image_tag('logo.png') %></a>
-          <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavDropdown" aria-controls = "navbarNavDropdown" aria-expanded = "false" aria-label = "Toggle navigation">
+          <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavDropdown" 
+                  aria-controls = "navbarNavDropdown" aria-expanded = "false" aria-label = "Toggle navigation">
             <span class = "navbar-toggler-icon"></span>
           </button>
           <div class = "collapse navbar-collapse" id = "navbarNavDropdown">
